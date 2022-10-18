@@ -1,6 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
-const words = ["William"];
+const words = ["Bob"];
 
 let cursor = gsap.to(".cursor", {
     opacity: 0,
