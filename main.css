@@ -1,0 +1,58 @@
+html,
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(30, 30, 30);
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.sectionlanding {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+    color: white;
+    font-size: 15rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.infotext {
+  font-size: 5rem;
+  color: antiquewhite;
+}
+
+.infowrapper {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.noneinfo {
+  background-color: rgb(113, 42, 96);
+  width: 50%;
+  height: 100%;
+  border-radius: 50px;
+}
+
+.info {
+  background-color: rgb(164, 94, 146);
+  width: 50%;
+  height: 100%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
